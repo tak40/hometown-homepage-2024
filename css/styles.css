@@ -43,17 +43,46 @@ header {
 /* ----- ACTIVITIES ----- */
 
 .activities-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: #f1faee;
     justify-content: space-evenly;
+    height: 378px;
+}
+
+.activities-section-title {
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .activities {
     display: flex;
+    justify-content: space-evenly;
 }
 
-.activities-img {
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 27.5%;
+}
+
+.activity-img {
     width: 100px;
     border-radius: 50%;
+}
+
+figcaption {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.activity-title {
+    font-weight: 700;
 }
 
 /* ----- GUIDE ----- */

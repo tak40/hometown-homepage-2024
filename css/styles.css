@@ -57,13 +57,13 @@ header {
 
 .header-title {
     font-size: 32px;
-    background-color: rgba(29, 53, 87, 0.8);
+    background-color: #1d3557cc;
 }
 
 .header-subtitle {
     width: 55%;
     font-size: 18px;
-    background-color: rgba(69, 123, 157, 0.8);
+    background-color: #457b9dcc;
 }
 
 /* ----- ACTIVITIES ----- */

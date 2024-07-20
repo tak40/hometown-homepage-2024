@@ -24,10 +24,43 @@ html {
 }
 
 body {
+    font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
     text-align: center;
+    color: #1d3557;
+}
+
+/* ----- HERO/HEADER ----- */
+
+header {
+    background-image: url(../assets/images/torshov.jpg);
+    color: #fff;
+}
+
+/* ----- ACTIVITIES ----- */
+
+.activities-container {
+    background: #f1faee;
+    justify-content: space-evenly;
+}
+
+.activities {
+    display: flex;
 }
 
 img {
     width: 100px;
+}
+
+/* ----- GUIDE ----- */
+
+.guide-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+.guide {
+    display: flex;
 }

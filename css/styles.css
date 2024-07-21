@@ -142,8 +142,10 @@ figcaption {
 .guide-info {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
     height: 75%;
+    margin-bottom: 20px;
 }
 
 .guide-info h2 {
